@@ -1,9 +1,10 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "Mon Petit Graphisme",
+  "name": "Mon Petit Graphisme",
+  "lang": "fr",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "img/logo-square.png",
       "type": "image/png",
       "sizes": "192x192"
     }
