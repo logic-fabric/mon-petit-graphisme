@@ -12,6 +12,9 @@
    =========== */
 
 html {
+  --primary-500: #5B38A6;
+  --primary-100: #C8ADF7;
+
   color: #333;
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 1em;
@@ -370,3 +373,43 @@ header {
 /* ======
    FOOTER
    ====== */
+
+footer {
+  padding: 1em;
+  color: white;
+  text-align: center;
+
+  background: var(--primary-500);
+}
+
+footer h3 {
+  padding: 0 2em 0 2em;
+
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.social-networks i,
+.footer__infos h4 {
+  color: var(--primary-100);
+}
+
+.social-networks i {
+  font-size: 1.8em;
+  margin: 0 2em;
+}
+
+.footer__infos {
+  display: flex;
+  justify-content: space-around;
+
+  text-align: left;
+}
+.footer__infos h4 {
+  font-weight: 500;
+}
+.footer__infos address {
+  margin-left: 2em;
+
+  font-style: normal;
+}
