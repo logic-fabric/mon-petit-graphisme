@@ -15,7 +15,7 @@ html {
   color: #333;
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.4;
 }
 
@@ -259,8 +259,9 @@ textarea {
 }
 
 /* ==========
-  PAGE STYLES
-  =========== */
+   PAGE STYLES
+   =========== */
+
 .content-wrapper {
   max-width: 1024px;
   margin: 0 auto;
@@ -269,6 +270,7 @@ textarea {
 /* ======
    HEADER
    ====== */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -299,6 +301,71 @@ header {
 /* ====
    MAIN
    ==== */
+
+.hero-banner {
+  position: relative;
+}
+.hero-banner__background {
+  width: 100%;
+}
+.hero-banner__logo img {
+  position: absolute;
+  top: 30%;
+  left: calc(50% - 8em);
+
+  width: 16em;
+}
+.hero-banner__text {
+  position: absolute;
+  top: 50%;
+
+  width: 100%;
+  margin: 0 auto;
+
+  color: white;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center
+}
+
+.standfirst {
+  width: 75%;
+  margin: 2em auto;
+
+  font-size: 1.4em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+
+  width: 75%;
+  margin: 0 auto 2em auto;
+}
+
+.card {
+  padding: 1em;
+
+  text-align: center;
+}
+.card__title {
+  font-weight: 400;
+}
+.card__text {
+  font-size: 0.9em;
+}
+
+.client-quote {
+  width: 60%;
+  margin: 1em auto 2em auto;
+
+  text-align: center;
+}
+.client-quote__text {
+  font-size: 1.1em;
+  font-weight: 400;
+}
 
 /* ======
    FOOTER
