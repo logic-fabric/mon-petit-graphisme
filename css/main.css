@@ -7,9 +7,9 @@
 * Kroc Camen, and the H5BP dev community and team.
 */
 
-/* =================================
-   BASE STYLES: opinionated defaults
-   ================================= */
+/* ===========
+   BASE STYLES
+   =========== */
 
 html {
   color: #333;
@@ -17,6 +17,11 @@ html {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.4;
+}
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 /*
@@ -252,3 +257,49 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+/* ==========
+  PAGE STYLES
+  =========== */
+.content-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* ======
+   HEADER
+   ====== */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  min-height: 8em;
+}
+
+.main-menu {
+  width: 50%;
+}
+.main-menu__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  height: 100%;
+
+  list-style: none;
+}
+.main-menu__list li {
+  margin-left: 32px;
+
+  font-size: 1.2em;
+}
+
+/* ====
+   MAIN
+   ==== */
+
+/* ======
+   FOOTER
+   ====== */
